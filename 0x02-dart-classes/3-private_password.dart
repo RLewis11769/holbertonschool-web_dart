@@ -1,4 +1,4 @@
-// 
+// Class with private properties, constructor, method, getter/setter, and overriding toString() method
 
 class Password {
   String _password = "";
