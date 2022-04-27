@@ -1,10 +1,17 @@
-// Class with constructor, method, and overriding toString() method
+// 
 
 class Password {
-  String password = "";
+  String _password = "";
 
-  Password() {
-    this.password = password;
+  // Different constructor syntax to instantiate private variables
+  Password({required String password}) : _password = password;
+
+  // Getter method to access private variables
+  String get password => _password;
+
+  // Setter method to set private variables
+  set password(String pw) {
+    _password = pw;
   }
 
   bool isValid() {
