@@ -1,8 +1,5 @@
-// Print string 3 times, then first 9 characters
-// * is String multiply operator / substring is like slice - start inclusive to end exclusive (optional)
-
-void main() {
+void main() { // Print string 3 times, then first 9 characters
   String str = "Holberton School";
-  print(str * 3);
-  print(str.substring(0, 9) + '\n');
+  print(str * 3); // * is String multiply operator
+  print(str.substring(0, 9) + '\n'); //substring is like slice - start inclusive to end exclusive (optional)
 }
