@@ -1,5 +1,4 @@
-// Complete source code to check if number >= 80
-// If true, print 'You passed' otherwise Uncaught Error: Assertion failed
+// If number >= 80, print 'You Passed' otherwise Uncaught Error: Assertion failed
 // Test with: dart --enable-asserts 5-assertion.dart 80
 
 void main(List<String> args) {
@@ -9,5 +8,5 @@ void main(List<String> args) {
   // Assert takes condition and optional message if assertion fails
   assert(nb >= 80, 'The score must be bigger or equal to 80');
   // If assertion passes, print
-  print('You passed');
+  print('You Passed');
 }

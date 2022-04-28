@@ -1,5 +1,4 @@
-// Complete source code to print double with precision of 2 digits
-// Fix number of digits to 2
+// Print double with precision of 2 digits
 
 void main() {
   var n = 3.14159265359;
