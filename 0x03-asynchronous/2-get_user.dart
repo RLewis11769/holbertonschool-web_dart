@@ -1,3 +1,4 @@
+// Use try/catch block to catch error when printing user's string representation
 import '2-main.dart';
 
 // async modifier not asked for in prototype but defines async function
