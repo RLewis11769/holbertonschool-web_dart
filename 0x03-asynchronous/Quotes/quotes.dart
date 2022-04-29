@@ -14,6 +14,6 @@ Future<String> generateQuote(id) async {
     // Print quote
     return "$quoteAuthor : $quoteText";
   } catch (e) {
-    return "There is no quotes";
+    return "There are no quotes";
   }
 }
